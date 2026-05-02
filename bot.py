@@ -4,8 +4,8 @@ from telegram import InlineKeyboardButton, InlineKeyboardMarkup, Update
 from telegram.ext import Application, CommandHandler, ContextTypes
 
 
-NEW_BOT_URL = os.getenv("NEW_BOT_URL", "https://t.me/your_new_bot")
-NEW_BOT_NAME = os.getenv("NEW_BOT_NAME", "нового бота")
+NEW_BOT_URL = os.getenv("NEW_BOT_URL", "https://t.me/AetherTaarot_bot")
+NEW_BOT_NAME = os.getenv("NEW_BOT_NAME", "@AetherTaarot_bot")
 
 
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
